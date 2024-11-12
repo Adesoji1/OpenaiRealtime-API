@@ -18,7 +18,7 @@ More UI implementation for interface is yet to be done
 
 Create a Virtual environment and navigate to backend/requirements.txt and run Pip install -r requirements.txt
 
-Navigate to OpenaiRealtime-API/realtime_api-d0e5afd3b87d3ea6e5a21e7ec8e0c12353a0a81f/backend and run:
+Navigate to realtime_api-d0e5afd3b87d3ea6e5a21e7ec8e0c12353a0a81f/backend and run:
 
 uvicorn main:app --host 0.0.0.0 --port 8000
 
@@ -38,7 +38,7 @@ INFO:     Stopping reloader process [238400]
 
 ## Frontend
 
-Install package. json at  OpenaiRealtime-API/realtime_api-d0e5afd3b87d3ea6e5a21e7ec8e0c12353a0a81f/ff/frontend/package.json using npm install  and navigate to  /ff/frontend  and run "npm run dev"
+Install package. json at  ff/frontend/package.json using npm install  and navigate to  /ff/frontend  and run "npm run dev"
 
 ![alt_text](/ff/frontend/public/pica.png)
 
@@ -46,4 +46,4 @@ Created by [Adesoji](https://www.github.com/Adesoji1)
 
 ## Further Work
 
-Deployment to Kubernetes Cluster using Rancher, dockerization and Monitoring ,Python Environment used was python 3.11.10 and python 3.11.6 while node version is V 20, see blog for more details
+Deployment to Kubernetes Cluster using Rancher, dockerization and Monitoring 
