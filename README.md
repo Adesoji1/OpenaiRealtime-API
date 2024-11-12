@@ -9,7 +9,9 @@ This template provides a minimal setup to get React working in Vite with HMR and
 
 Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/)for Fast Refresh
+
+  
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 More UI implementation for interface is yet to be done
@@ -25,16 +27,27 @@ uvicorn main:app --host 0.0.0.0 --port 8000
 You should see this below in your terminal
 
 INFO:     Started server process [190092]
+
 INFO:     Waiting for application startup.
+
 INFO:     Application startup complete.
+
 INFO:     Uvicorn running on port [8000](http://0.0.0.0:8000) (Press CTRL+C to quit)
-^CINFO:     Shutting down
+
+INFO:     Shutting down
+
 INFO:root:Frontend WebSocket disconnected
+
 INFO:     connection closed
+
 INFO:     Waiting for application shutdown.
+
 INFO:     Application shutdown complete.
+
 INFO:     Finished server process [240890]
+
 INFO:     Stopping reloader process [238400]
+
 
 ## Frontend
 
